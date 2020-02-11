@@ -24,6 +24,11 @@ namespace Numbers
             richTextBox1.AppendText(d1.ToString("0.0") + "\n");
             richTextBox1.AppendText(d1.ToString("0.E0") + "\n");
             richTextBox1.AppendText(d1.ToString("0.00E00") + "\n");
+
+            double pi = 3.141592653589793;
+            double c = 299792458;
+            richTextBox1.AppendText(pi.ToString());
+            richTextBox1.AppendText(3.ToString());
         }
 
         private void Form1_Load(object sender, EventArgs e)
