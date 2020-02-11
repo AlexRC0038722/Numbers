@@ -15,7 +15,7 @@ namespace Numbers
         public Form1()
         {
             InitializeComponent();
-            double d1 =5e6
+            double d1 = 5e6;
             richTextBox1.AppendText(d1.ToString() + "\n");
             richTextBox1.AppendText(d1.ToString("N") + "\n");
             richTextBox1.AppendText(d1.ToString("N3") + "\n");
